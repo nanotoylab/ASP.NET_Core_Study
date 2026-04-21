@@ -1,17 +1,18 @@
 ﻿@page
-@model IndexModel
+@model RoleSelectModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "親画面";
 }
 
-<div class="container mt-5">
-    <h2>状態管理の実験室</h2>
-
-    <div class="card mb-4 p-3 bg-light">
-        <h4>現在のあなたの状態</h4>
-        <p>🔒 サーバーのセッション（権限）： <strong>@Model.CurrentRole</strong></p>
-        <p>🍪 ブラウザのクッキー（テーマ設定）： <strong>@Model.CurrentTheme</strong></p>
-    </div>
+<h2>権限選択画面</h2>
+<div class="mt-4">
+    <p>現在は顔パス（SSO認証済み）状態です。</p>
+    
+    <form method="post">
+        <button type="submit" asp-page-handler="Logout" class="btn btn-danger">
+            完全にログアウトする（もう一度ログイン画面へ）
+        </button>
+    </form>
 
     <form method="post">
         <button type="submit" asp-page-handler="SaveSession" class="btn btn-primary m-2">
@@ -29,6 +30,5 @@
         <button type="submit" asp-page-handler="Check" class="btn btn-primary accordion-header">
             クッキーの内容確認
         </button>
-
     </form>
 </div>

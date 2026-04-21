@@ -1,0 +1,25 @@
+﻿@page
+@model ASP.NET_Core_Study.Pages.CalcModel
+@{
+    ViewData["Title"] = "足し算計算機";
+}
+
+
+<h2>足し算アプリ</h2>
+
+
+<form method="post">
+    <div>
+        <input type="number" asp-for="Number1"/>
+        <span>＋</span>
+        <input type="number" asp-for="Number2"/>
+    </div>
+
+    <div>
+        <button type="submit">計算する</button>
+    </div>
+</form>
+
+<hr />
+<h3>結果： @Model.Result</h3>
+

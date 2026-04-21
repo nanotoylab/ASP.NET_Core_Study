@@ -1,0 +1,62 @@
+﻿@page
+@model ASP.NET_Core_Study.Pages.sModel
+@{
+    ViewData["Title"] = "勉強用";
+}
+
+
+<div>
+    <h3>親画面</h3>
+    <p>現在の子画面からの入力値： <span id="parentLabel" style="font-weight:bold; color:blue;">未入力</span></p>
+    <button type="button" id="openChildBtn" class="btn btn-primary">子画面（モーダル）を開く</button>
+</div>
+
+<dialog id="childDialog" style="padding: 20px; border-radius: 8px; border: 1px solid #ccc;">
+    <h3>子画面</h3>
+    <label>値を入力：</label>
+    <input type="text" id="childInput" />
+    
+    <div style="margin-top: 15px;">
+        <button type="button" id="applyBtn">親に反映して閉じる</button>
+        <button type="button" id="closeBtn">キャンセル</button>
+    </div>
+</dialog>
+
+<script>
+    const parentLabel = document.getElementById('parentLabel');
+    const openChildBtn = document.getElementById('openChildBtn');
+    
+    const childDialog = document.getElementById('childDialog');
+    const childInput = document.getElementById('childInput');
+    const applyBtn = document.getElementById('applyBtn');
+    const closeBtn = document.getElementById('closeBtn');
+
+    // 1. 親画面のボタンを押したら、子画面（モーダル）を開く
+    openChildBtn.addEventListener('click', function () {
+        childInput.value = ''; // 入力欄をクリア
+        childDialog.showModal();
+    });
+
+    // 2. 子画面の「反映して閉じる」ボタンを押したときの処理
+    applyBtn.addEventListener('click', function () {
+        const val = childInput.value;
+        
+        if (val !== '') {
+            // 親画面のラベルを書き換える
+            parentLabel.textContent = val;
+        }
+        
+        // 子画面を閉じる
+        childDialog.close();
+    });
+
+    // 3. 子画面の「キャンセル」ボタンを押したときの処理
+    closeBtn.addEventListener('click', function () {
+        childDialog.close();
+    });
+</script>
+
+
+
+
+

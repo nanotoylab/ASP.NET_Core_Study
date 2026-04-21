@@ -1,0 +1,20 @@
+﻿@page
+@model ASP.NET_Core_Study.Pages.ChildModel
+@{
+    ViewData["Title"] = "子画面";
+}
+
+<h2>子画面（入力フォーム）</h2>
+
+<form method="post" style="margin-top: 20px;">
+    <label>親画面に渡すテキスト：</label>
+    <input type="text" asp-for="InputText" style="width: 300px; padding: 5px;" />
+    
+    <div style="margin-top: 20px;">
+        <button type="submit" style="padding: 10px 20px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            決定して親画面に戻る
+        </button>
+        
+        <a asp-page="/Parent" style="margin-left: 10px; color: #6c757d;">キャンセル</a>
+    </div>
+</form>

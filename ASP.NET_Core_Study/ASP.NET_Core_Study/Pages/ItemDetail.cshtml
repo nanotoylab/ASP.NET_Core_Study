@@ -1,0 +1,94 @@
+﻿@page
+@model ASP.NET_Core_Study.Pages.ItemDetailModel
+@{
+    ViewData["Title"] = "商品詳細";
+}
+
+<div class="mt-4">
+    <a asp-page="/ItemList" class="btn btn-secondary mb-4">← 一覧に戻る</a>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success fw-bold">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (Model.TargetProduct == null)
+    {
+        <h3 class="text-danger">商品が見つかりませんでした。</h3>
+    }
+    else
+    {
+        <div class="card shadow-sm">
+            <img src="@Model.TargetProduct.ImageUrl" class="card-img-top" alt="@Model.TargetProduct.Name" style="max-height: 400px; object-fit: cover;">
+            
+            <div class="card-body text-center p-5">
+                <h1>@Model.TargetProduct.Name</h1>
+                <h2 class="text-danger fw-bold mt-3 mb-4">¥@Model.TargetProduct.Price.ToString("N0")</h2>
+                
+                <p class="text-muted">ここにDBから取得した、商品の詳しい説明文やスペックが入ります。</p>
+                
+                <button type="button" class="btn btn-success btn-lg mt-3 w-50" data-bs-toggle="modal" data-bs-target="#orderModal">
+                    カートに入れる（ポップアップを開く）
+                </button>
+            </div>
+        </div>
+
+        <div class="modal fade" id="orderModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h5 class="modal-title">ご注文の確認</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="fw-bold">「@Model.TargetProduct.Name」をカートに追加しますか？</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">キャンセル</button>
+                        
+                        <button type="button" class="btn btn-warning"
+                                data-bs-dismiss="modal"
+                                data-bs-toggle="modal"
+                                data-bs-target="#confirmModal">
+                            次へ（注意事項の確認）
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="confirmModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form method="post" asp-page-handler="Order">
+                        <div class="modal-header bg-danger text-white">
+                            <h5 class="modal-title">最終確認</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-danger fw-bold">※本当に注文を確定してよろしいですか？</p>
+                            
+                            <div class="form-group mt-3">
+                                <label>数量を入力：</label>
+                                <input type="number" asp-for="OrderQuantity" class="form-control" min="1" max="10" />
+                            </div>
+                            
+                            <input type="hidden" asp-for="Id" />
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary"
+                                    data-bs-dismiss="modal"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#orderModal">
+                                ← 戻る
+                            </button>
+                            <button type="submit" class="btn btn-danger">注文を確定する</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+</div>

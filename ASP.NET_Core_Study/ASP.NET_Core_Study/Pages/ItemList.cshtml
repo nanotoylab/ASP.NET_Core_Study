@@ -1,0 +1,29 @@
+﻿@page
+@model ASP.NET_Core_Study.Pages.ItemListModel
+@{
+    ViewData["Title"] = "商品一覧";
+}
+
+
+<h2 class=mt-4 mb-4">商品一覧（画像表示テスト）</h2>
+
+<div class="row">
+    @foreach(var item in Model.Products)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="object-fit: cover;"/>
+                
+                <div class="card-body">
+                    <a asp-page="/ItemDetail" asp-route-id="@item.Id" style="text-decoration: none;">
+                        <h5 class="card-title text-primary">@item.Name</h5>
+                    </a>
+                    <p class="card-text text-danger fw-bold">¥@item.Price.ToString("N0")</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
