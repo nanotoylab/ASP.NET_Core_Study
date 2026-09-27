@@ -1,0 +1,50 @@
+﻿@page
+@model ASP.NET_Core_Study.Pages.studyModel
+@{
+    ViewData["Title"] = "勉強用";
+}
+
+@if (Model.ShowMessage)
+{
+    <p style="color: red; font-weight: bold;">
+        @Model.Message
+    </p>
+}
+
+<form method="post">
+    <label asp-for="e.Name"></label>
+    <input asp-for="e.Name" />
+    <label asp-for="e.ID"></label>
+    <input asp-for="e.ID" />
+    <span asp-validation-for="e.Name" style="color: red; font-size: small;"></span>
+    <span asp-validation-for="e.ID" style="color: red; font-size: small;"></span>
+
+    <br /><br />
+    <button type="submit" name="action" value="add">一覧に追加</button>
+    <button type="submit" name="action" value="clear">一覧をリセット</button>
+
+    <hr />
+    <h3>登録済みの社員一覧</h3>
+
+    <table border="1" cellpadding="5" style="border-collapse: collapse;">
+        <thead style="background-color: #eeeeee;">
+            <tr>
+                <th>社員名</th>
+                <th>社員番号</th>
+                <th>削除</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.DisplayList)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.ID</td>
+                    <td>
+                        <button type="submit" name="target" value=@item.ID>削除</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

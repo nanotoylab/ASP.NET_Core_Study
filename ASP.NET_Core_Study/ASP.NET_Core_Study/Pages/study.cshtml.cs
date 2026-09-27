@@ -1,0 +1,87 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+
+namespace ASP.NET_Core_Study.Pages
+{
+    public class Employee
+    {
+        // (ご自身で追加された正規表現やStringLengthなどのルールはそのままでOKです！)
+        [DisplayName("社員名")]
+        [Required(ErrorMessage = "社員名は必ず入力してください！")]
+        public string? Name { get; set; }
+
+        [DisplayName("社員番号")]
+        [Required(ErrorMessage = "社員番号は必ず入力してください！")]
+        public string? ID { get; set; }
+    }
+
+    public class studyModel : PageModel
+    {
+        [BindProperty]
+        public Employee e { get; set; } = new Employee();
+
+        public string Message { get; set; } = string.Empty;
+        public bool ShowMessage { get; set; }
+
+        // 【追加①】Webの「物忘れ」を防ぐ、アプリ全体で共有される秘密の保管庫（疑似データベース）
+        private static List<Employee> _fakeDatabase = new List<Employee>();
+
+        // 【追加②】画面（Razor）に一覧を渡すための箱
+        public List<Employee> DisplayList = new List<Employee>();
+
+        public void OnGet()
+        {
+            e = new Employee();
+            e.Name = "";
+            e.ID = "";
+            ShowMessage = false;
+
+            // 画面が開いた時は、保管庫の中身をそのまま画面に渡す
+            DisplayList = _fakeDatabase;
+        }
+
+        public void OnPost(string? action, string? target)
+        {
+            // いつも通り、保管庫の中身を画面に渡す準備をしておく
+            DisplayList = _fakeDatabase;
+
+            if (!string.IsNullOrEmpty(target))
+            {
+                DisplayList.RemoveAll(e => e.ID.Equals(target));
+
+                //削除処理
+                return;
+            }
+
+
+            if (!ModelState.IsValid)
+            {
+                return;
+            }
+
+            if (action == "add") // 【変更】"send" から "add" に変更しました
+            {
+                // 【追加③】入力されたデータを新しいEmployeeとして保管庫に追加！
+                var newEmp = new Employee { Name = e.Name, ID = e.ID }; // （社員番号もある場合はここに追加してください）
+                _fakeDatabase.Add(newEmp);
+
+                Message = $"「{e.Name}」さんを一覧に追加しました！";
+                ShowMessage = true;
+
+            }
+            else if (action == "clear")
+            {
+                // 【追加④】一覧リセットボタンが押されたら、保管庫も空っぽにする
+                _fakeDatabase.Clear();
+
+                Message = "一覧データをすべて削除しました。";
+                ShowMessage = true;
+                ModelState.Clear();
+                e.Name = "";
+                e.ID = "";
+            }
+        }
+    }
+}

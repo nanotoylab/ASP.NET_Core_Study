@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}|ASP.NET_Core_Study\\ASP.NET_Core_Study.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study\\pages\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}|ASP.NET_Core_Study\\ASP.NET_Core_Study.csproj|solutionrelative:asp.net_core_study\\pages\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study.tests\\application\\feedbackunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|solutionrelative:asp.net_core_study.tests\\application\\feedbackunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study.tests\\scenario\\feedbackscenariotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|solutionrelative:asp.net_core_study.tests\\scenario\\feedbackscenariotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study.tests\\web\\feedbackintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|solutionrelative:asp.net_core_study.tests\\web\\feedbackintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}|ASP.NET_Core_Study\\ASP.NET_Core_Study.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study\\program.public.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}|ASP.NET_Core_Study\\ASP.NET_Core_Study.csproj|solutionrelative:asp.net_core_study\\program.public.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}|ASP.NET_Core_Study\\ASP.NET_Core_Study.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study\\pages\\feedback.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}|ASP.NET_Core_Study\\ASP.NET_Core_Study.csproj|solutionrelative:asp.net_core_study\\pages\\feedback.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study.tests\\usersearchtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|solutionrelative:asp.net_core_study.tests\\usersearchtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study.tests\\application\\usersearchunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|solutionrelative:asp.net_core_study.tests\\application\\usersearchunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study.tests\\scenario\\usersearchscenariotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|solutionrelative:asp.net_core_study.tests\\scenario\\usersearchscenariotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study.tests\\web\\usersearchintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|solutionrelative:asp.net_core_study.tests\\web\\usersearchintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|c:\\users\\be101\\desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\asp.net_core_study\\asp.net_core_study\\asp.net_core_study.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}|ASP.NET_Core_Study.Tests\\ASP.NET_Core_Study.Tests.csproj|solutionrelative:asp.net_core_study.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FeedbackScenarioTests.cs",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Scenario\\FeedbackScenarioTests.cs",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study.Tests\\Scenario\\FeedbackScenarioTests.cs",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Scenario\\FeedbackScenarioTests.cs",
+              "RelativeToolTip": "ASP.NET_Core_Study.Tests\\Scenario\\FeedbackScenarioTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T11:33:44.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FeedbackIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Web\\FeedbackIntegrationTests.cs",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study.Tests\\Web\\FeedbackIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Web\\FeedbackIntegrationTests.cs",
+              "RelativeToolTip": "ASP.NET_Core_Study.Tests\\Web\\FeedbackIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T11:33:41.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeedbackUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Application\\FeedbackUnitTests.cs",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study.Tests\\Application\\FeedbackUnitTests.cs",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Application\\FeedbackUnitTests.cs",
+              "RelativeToolTip": "ASP.NET_Core_Study.Tests\\Application\\FeedbackUnitTests.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwCMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T11:33:36.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.Public.cs",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\Program.Public.cs",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study\\Program.Public.cs",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\Program.Public.cs",
+              "RelativeToolTip": "ASP.NET_Core_Study\\Program.Public.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T11:33:33.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Feedback.cshtml",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\Pages\\Feedback.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study\\Pages\\Feedback.cshtml",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\Pages\\Feedback.cshtml",
+              "RelativeToolTip": "ASP.NET_Core_Study\\Pages\\Feedback.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-27T11:33:28.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Feedback.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\Pages\\Feedback.cshtml.cs",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study\\Pages\\Feedback.cshtml.cs",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\Pages\\Feedback.cshtml.cs",
+              "RelativeToolTip": "ASP.NET_Core_Study\\Pages\\Feedback.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T11:33:23.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserSearchScenarioTests.cs",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Scenario\\UserSearchScenarioTests.cs",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study.Tests\\Scenario\\UserSearchScenarioTests.cs",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Scenario\\UserSearchScenarioTests.cs",
+              "RelativeToolTip": "ASP.NET_Core_Study.Tests\\Scenario\\UserSearchScenarioTests.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T14:28:57.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserSearchIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Web\\UserSearchIntegrationTests.cs",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study.Tests\\Web\\UserSearchIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Web\\UserSearchIntegrationTests.cs",
+              "RelativeToolTip": "ASP.NET_Core_Study.Tests\\Web\\UserSearchIntegrationTests.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T14:28:53.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserSearchUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Application\\UserSearchUnitTests.cs",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study.Tests\\Application\\UserSearchUnitTests.cs",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\Application\\UserSearchUnitTests.cs",
+              "RelativeToolTip": "ASP.NET_Core_Study.Tests\\Application\\UserSearchUnitTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T14:28:47.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserSearchTests.cs",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\UserSearchTests.cs",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study.Tests\\UserSearchTests.cs",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\UserSearchTests.cs",
+              "RelativeToolTip": "ASP.NET_Core_Study.Tests\\UserSearchTests.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwDIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T14:08:53.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ASP.NET_Core_Study.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\be101\\Desktop\\\u30B5\u30FC\u30D3\u30B9\u958B\u767A\\ASP.NET_Core_Study\\ASP.NET_Core_Study\\ASP.NET_Core_Study.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "ASP.NET_Core_Study.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T14:08:49.289Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33203.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET_Core_Study", "ASP.NET_Core_Study\ASP.NET_Core_Study.csproj", "{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET_Core_Study.Tests", "ASP.NET_Core_Study.Tests\ASP.NET_Core_Study.Tests.csproj", "{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E2C2A7-1234-4C9F-9B78-1A2B3C4D5E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D3E4F5-6789-4ABC-DE01-23456789ABCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

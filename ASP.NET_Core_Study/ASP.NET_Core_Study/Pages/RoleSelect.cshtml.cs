@@ -15,11 +15,18 @@ public class RoleSelectModel : PageModel
         var ssoEmail = User.Identity.Name;
         // （省略：DBから userRoles を取得する処理）
         MyRoles = new List<string> { "Admin", "normal" };
+
+        MyRoles.AddRange(MyRoles);
     }
+
+
+
+
 
     // ユーザーが画面で「この権限で入る！」とボタンを押した時の処理
     public IActionResult OnPostSelectRole(string selectedRole)
     {
+
         // 選ばれた権限をセッション（サーバーの安全な金庫）に保存
         HttpContext.Session.SetString("Role", selectedRole);
 
@@ -29,6 +36,8 @@ public class RoleSelectModel : PageModel
 
     public IActionResult OnPostLogout()
     {
+        Debug.WriteLine($"現在の権限の数は {MyRoles.Count} です！");
+
         // 1. 自分のサーバーのセッション（金庫）を空にする
         HttpContext.Session.Clear();
 
@@ -98,7 +107,7 @@ public class RoleSelectModel : PageModel
 
         // クッキーの "Theme" を過去の日付にして強制削除する
         Response.Cookies.Append("Theme", "", new CookieOptions { Expires = DateTime.Now.AddDays(-1) });
-
+        
         return RedirectToPage();
     }
 
